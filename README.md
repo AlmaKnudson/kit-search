@@ -58,6 +58,7 @@ The API application is built using NestJS and is responsible for managing and tr
 - **Containerization**: Dockerize the frontend and API applications to facilitate deployment, scaling, and ensure consistency across various environments.
 - **FedEx API Integration**: Implement direct integration with the FedEx API for real-time tracking information instead of mocking the fedex response. 
 - **Integration Testing**: Add comprehensive integration tests to validate the functionality across different parts of the system. Consider using a Dockerized environment for simulating real-world scenarios and dependencies.
+- **E2E & Unit Testing**: Improve existing e2e and unit testing in the API app.
 - **Client-Side Caching**: Implement client-side caching to reduce redundant network requests and improve the responsiveness of the user interface.
 - **Authentication & Authorization**: Add user/clienta/account-based security. 
 - **Logging & Monitoring**: Improve logging strategy.
