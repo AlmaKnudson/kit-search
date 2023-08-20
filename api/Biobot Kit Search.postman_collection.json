@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "c833bd99-743c-471e-b2cc-11edc010b47a",
+		"name": "Biobot Kit Search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4500483",
+		"_collection_link": "https://martian-crescent-418303.postman.co/workspace/My-Workspace~9f476953-3172-4c64-87e3-5c47eb19c904/collection/4500483-c833bd99-743c-471e-b2cc-11edc010b47a?action=share&creator=4500483&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get Kits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/kits",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"kits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Kit Status by Kit ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/kits/:id/status",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"kits",
+						":id",
+						"status"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "213"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
