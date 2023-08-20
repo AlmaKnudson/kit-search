@@ -1,0 +1,4 @@
+node_modules/
+api/dist/
+api/node_modules/
+frontend/node_modules/
